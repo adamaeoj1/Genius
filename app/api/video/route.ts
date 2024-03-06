@@ -36,8 +36,6 @@ export async function POST(
       }
     );
 
-    if (!isPro) {
-      await incrementApiLimit();
     }
 
     return NextResponse.json(response);
