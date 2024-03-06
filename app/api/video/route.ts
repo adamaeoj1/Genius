@@ -36,7 +36,7 @@ export async function POST(
       }
     );
 
-    }
+    
 
     return NextResponse.json(response);
   } catch (error) {
